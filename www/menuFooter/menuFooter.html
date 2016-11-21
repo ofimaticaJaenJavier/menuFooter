@@ -1,15 +1,13 @@
+<div class="capaoscurecer" ng-class="showCapaOscurecer"></div>
 <div on-swipe-up="onGesture('Swipe Up')" on-swipe-right="onGesture('Swipe Right')" on-swipe-down="onGesture('Swipe Down')"
   on-swipe-left="onGesture('Swipe Left')" on-hold="onGesture('Hold')" on-double-tap="onGesture('Double-Tap')">
   <div class="contenedor-menu" style="display:flex;flex-direction:column;align-items:center" ng-class="showClass">
-    <div style="background-color:red;width:30px;text-align:center"><i class="icon ion-more"></i></div>
+    <div class="contenedor-puntos"><i class="icon ion-more"></i></div>
     <div style="background-color:green;width:100%;height:25vh">
       
-      <div class="botonesmenu col col-33" style="margin-left: 10px; " align="center" ng-click="showAlert('menuFooter/popUp.html') " id="configuracion"><span><img height="50px" ng-src={{flag}}><br>Seleccione un Idioma</span>
+      <div class="botonesmenu col col-110" style="margin-left: 10px; " align="center" ng-click="showAlert('menuFooter/popUp.html') " id="configuracion"><span><img height="50px" ng-src={{flag}}><br>Seleccione un Idioma</span>
       </div>
     </div>
   </div>
-  <!--<div class="botonesmenu col col-33" id="backoffice"><span><i class="icon ion-unlocked"></i><br>Backoffice</span></div>
-      <div class="botonesmenu col col-33" id="atril"><span><i class="icon ion-android-desktop"></i><br>Atril</span></div>
-      <div class="botonesmenu col col-33" id="configuracion"><span><i class="icon ion-gear-b"></i><br>Configuración</span></div>-->
 </div>
 </div>
